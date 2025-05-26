@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joker - DC</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <div
+        class="hamburger"
+        onclick="this.classList.toggle('active'); document.querySelector('.nav').classList.toggle('active');"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="logo">
+        <div class="dc-logo">DC</div>
+      </div>
+      <nav class="nav">
+        <a href="#hero">Home</a>
+        <a href="#origins">Origins</a>
+        <a href="#movie">Movie</a>
+        <a href="#footer">About</a>
+      </nav>
+    </header>
+
+    <section id="hero" class="section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="content-left">
+            <!-- <h1 class="title">Joker</h1> -->
+            <h1 class="title"><span id="joker-title">Joker</span></h1>
+
+            <p class="subtitle">Published By DC</p>
+
+            <div class="stats">
+              <div class="stat-item">
+                <div class="stat-label">Power</div>
+                <div class="stat-description">
+                  Complete Unpredictability, Chaos Agent, Customized Weapons,
+                  Volatile Toxin Which Causes Victims To Die Laughing
+                </div>
+              </div>
+            </div>
+
+            <div class="scroll-indicator">
+              <div class="scroll-icon"></div>
+              <span>Scroll Mouse</span>
+            </div>
+          </div>
+
+          <div class="character-section">
+            <img src="joker-removebg-preview.png" class="character-image" />
+
+            <div class="intelligence-label">Intelligence</div>
+            <div class="character-stats">
+              <div class="stat-circle">
+                <div class="stat-number">01</div>
+                <div class="stat-dots">
+                  <div class="dot active"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="unpredictability-container">
+              <div class="unpredictability-label">
+                Complete<br />Unpredictability
+              </div>
+              <div class="stat-circle">
+                <div class="stat-number">05</div>
+                <div class="stat-dots">
+                  <div class="dot active"></div>
+                  <div class="dot active"></div>
+                  <div class="dot active"></div>
+                  <div class="dot active"></div>
+                  <div class="dot active"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="character-icon">🃏</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="origins" class="section origins-section">
+      <div class="container">
+        <div class="origins-content">
+          <div class="origins-image-container">
+            <img
+              src="joker2019.jpg"
+              alt="Joker Origins"
+              class="origins-image"
+            />
+          </div>
+
+          <div class="origins-text">
+            <h2 class="section-title">Origins</h2>
+            <p class="section-subtitle">The Birth of Chaos</p>
+
+            <p class="story-text">
+              The Joker's origin story has been told many times, each version
+              more haunting than the last. What remains consistent is the
+              tragedy that birthed Gotham's most dangerous criminal. A failed
+              comedian, desperate to provide for his family, made one fateful
+              decision that would change everything.
+            </p>
+
+            <div class="quote-box">
+              <div class="quote-text">
+                "All it takes is one bad day to reduce the sanest man alive to
+                lunacy. That's how far the world is from where I am. Just one
+                bad day."
+              </div>
+              <div class="quote-author">- The Joker</div>
+            </div>
+
+            <p class="story-text">
+              The chemical bath that bleached his skin white, turned his hair
+              green, and stretched his lips into a permanent grin was just the
+              physical transformation. The real change happened in his mind -
+              where sanity gave way to beautiful, terrifying madness.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="movie" class="section movie-section">
+      <div class="container">
+        <div class="movie-content">
+          <div class="movie-text">
+            <h2 class="section-title">Joker</h2>
+            <p class="section-subtitle">2019 Psychological Thriller</p>
+
+            <p class="story-text">
+              Todd Phillips' "Joker" presents a gritty, realistic take on the
+              iconic villain's origin story. Set in 1981 Gotham City, the film
+              follows Arthur Fleck, a failed comedian struggling with mental
+              illness, as he transforms into the criminal mastermind known as
+              the Joker.
+            </p>
+
+            <div class="movie-info">
+              <div class="movie-details">
+                <div class="detail-item">
+                  <div class="detail-label">Director</div>
+                  <div class="detail-value">Todd Phillips</div>
+                </div>
+                <div class="detail-item">
+                  <div class="detail-label">Runtime</div>
+                  <div class="detail-value">122 minutes</div>
+                </div>
+                <div class="detail-item">
+                  <div class="detail-label">Release</div>
+                  <div class="detail-value">October 2019</div>
+                </div>
+                <div class="detail-item">
+                  <div class="detail-label">Genre</div>
+                  <div class="detail-value">Drama, Thriller</div>
+                </div>
+              </div>
+
+              <div class="rating">
+                <div class="stars">★★★★★</div>
+                <span>8.4/10 IMDb</span>
+              </div>
+            </div>
+
+            <p class="story-text">
+              Joaquin Phoenix's haunting performance earned him an Academy
+              Award, bringing depth and humanity to a character often portrayed
+              as pure evil. The film explores themes of mental health, social
+              inequality, and the thin line between sanity and madness.
+            </p>
+          </div>
+
+          <div class="movie-image-container">
+            <img
+              src="moviePoster.jpg"
+              alt="Joker Movie Poster"
+              class="movie-poster"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>DC Universe</h3>
+            <div class="footer-links">
+              <a href="#">Batman</a>
+              <a href="#">Superman</a>
+              <a href="#">Wonder Woman</a>
+              <a href="#">Justice League</a>
+              <a href="#">The Flash</a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Movies</h3>
+            <div class="footer-links">
+              <a href="#">The Dark Knight</a>
+              <a href="#">Joker (2019)</a>
+              <a href="#">Batman Begins</a>
+              <a href="#">The Batman</a>
+              <a href="#">Suicide Squad</a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Comics</h3>
+            <div class="footer-links">
+              <a href="#">The Killing Joke</a>
+              <a href="#">Death in the Family</a>
+              <a href="#">The Man Who Laughs</a>
+              <a href="#">Batman: Year One</a>
+              <a href="#">Arkham Asylum</a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>Resources</h3>
+            <div class="footer-links">
+              <a href="#">DC Official</a>
+              <a href="#">Comics Database</a>
+              <a href="#">Character Guide</a>
+              <a href="#">News & Updates</a>
+              <a href="#">Community</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="social-links">
+            <a href="#" class="social-link">📘</a>
+            <a href="#" class="social-link">🐦</a>
+            <a href="#" class="social-link">📷</a>
+            <a href="#" class="social-link">🎬</a>
+          </div>
+          <p>
+            &copy; 2024 DC Entertainment. All rights reserved. This is a
+            fan-made tribute page.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
