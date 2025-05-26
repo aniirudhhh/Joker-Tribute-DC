@@ -67,7 +67,7 @@
 ## 💡 Folder Structure
 
 ```
-joker-tribute/
+Joker-Tribute-Page/
 │
 ├── index.html          # Main HTML file
 ├── styles.css          # All styling & responsive design
@@ -86,7 +86,7 @@ joker-tribute/
 https://github.com/aniirudhhh/Joker-Tribute-DC/tree/master
 
 # 2. Navigate into the folder
-cd joker-tribute
+cd Joker-Tribute-Page
 
 # 3. Open in your browser
 Open index.html manually
