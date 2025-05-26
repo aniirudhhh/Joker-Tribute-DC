@@ -83,7 +83,7 @@ Joker-Tribute-Page/
 
 ```bash
 # 1. Clone the repo
-https://github.com/aniirudhhh/Joker-Tribute-DC/tree/master
+https://github.com/aniirudhhh/Joker-Tribute-Page/tree/master
 
 # 2. Navigate into the folder
 cd Joker-Tribute-Page
